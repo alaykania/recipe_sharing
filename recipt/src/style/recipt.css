@@ -1,0 +1,80 @@
+
+h1
+{
+    color:azure;
+}
+form
+{
+    background-color: #333;
+    padding: 70px;
+    border: 2px rgb(39, 42, 126) solid;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+   
+   
+   
+
+}
+input[type="text"],input[type="email"],input[type="number"],input[type="password"],input[type="file"]
+{
+    padding: 10px;
+    margin: 16px;
+    width: 70%;
+    background-color:whitesmoke;
+  
+   font-size: 15px;
+   border: 2px solid black;
+border-radius: 2px;
+
+   
+    
+}
+label
+{
+    display:flex;
+    color:azure
+    
+ 
+}
+::placeholder
+{
+    font-size: 15px;
+    color:black;
+    font-style: oblique;
+}
+button[type="submit"]
+{
+    
+    padding: 15px;
+    margin: 30px;
+    width: 90%;
+    cursor: pointer;
+    background-color:whitesmoke;
+    color: #333;
+   font-size: 15px;
+}
+button[type="submit"]:hover
+{
+    background-color:green;
+}
+a
+{
+    color:lightblue;
+    font-size: large;
+    text-decoration: none;
+}
+textarea
+{
+    padding: 10px;
+    margin: 16px;
+    width: 80%;
+    height: 200px;
+    background-color:whitesmoke;
+  
+   font-size: 15px;
+   border: 2px solid black;
+border-radius: 2px;
+
+}

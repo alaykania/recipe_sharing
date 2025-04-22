@@ -1,0 +1,61 @@
+body
+	{
+		padding: 0px;
+		margin: 0px;
+        font-family: sans-serif;
+		
+	}
+	
+	.navbar
+	{
+	background-color: #333; 
+    color: white;
+    padding: 0px 20px
+	}
+	
+	.container
+	{
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+		
+		width:100%;
+		  margin: 0 auto;
+	
+
+	}
+	h1
+	{
+		font-size: 20px;
+    font-weight: bold;
+	}
+	.navbar-links
+	{
+		display: flex;
+		list-style: none
+		
+		
+	}
+	ul li
+	{
+		
+		
+		margin: 0 15px;
+
+
+	}
+	ul li a
+	{
+		color: white;
+		text-decoration: none;
+		font-size: 18px;
+
+
+	}
+	.navbar-links a:hover {
+    color: #ffcc00; 
+}
+@media screen  and (max-width:500px)
+{
+	
+}

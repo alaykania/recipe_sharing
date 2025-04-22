@@ -1,0 +1,99 @@
+.Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Max 3 per row */
+    gap: 30px;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .Image {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Image:hover {
+    transform: translateY(-5px);
+  }
+  
+  .Image img {
+    width: 70%;
+    height: 400px; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .text-section {
+    text-align: left;
+    width: 100%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  
+  .text-section h3 {
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .text-section ul,
+  .text-section ol {
+    margin-left: 20px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .text-section li {
+    margin-bottom: 6px;
+    line-height: 1.5;
+  }
+
+  input[type="search"]
+  {
+    padding: 10px;
+    margin: 16px;
+    width: 70%;
+    background-color:whitesmoke;
+    display: flex; 
+   font-size: 15px;
+   border: 2px solid rgb(177, 167, 167);
+    border-radius: 2px;
+
+  }
+  .search-input {
+    width: 60%;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  .action-buttons {
+    margin-top: 10px;
+  }
+  
+  .edit-btn, .delete-btn {
+    margin-right: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
